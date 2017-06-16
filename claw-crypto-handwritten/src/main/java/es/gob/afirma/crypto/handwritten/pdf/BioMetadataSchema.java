@@ -42,17 +42,17 @@ final class BioMetadataSchema extends XmpSchema {
 	 * @param data cadena de caracteres con los datos iniciales.
 	 * @return cadena de caracteres con los datos reemplazados.*/
 	private static String replaceAccents(final String data) {
-		return data.replaceAll("·","&aacute;") //$NON-NLS-1$ //$NON-NLS-2$
-					.replaceAll("È","&eacute;") //$NON-NLS-1$ //$NON-NLS-2$
-					.replaceAll("Ì","&iacute;") //$NON-NLS-1$ //$NON-NLS-2$
-					.replaceAll("Û","&oacute;") //$NON-NLS-1$ //$NON-NLS-2$
-					.replaceAll("˙","&uacute;") //$NON-NLS-1$ //$NON-NLS-2$
-					.replaceAll("Ò","&ntilde;") //$NON-NLS-1$ //$NON-NLS-2$
-					.replaceAll("¡","&Aacute;") //$NON-NLS-1$ //$NON-NLS-2$
-					.replaceAll("…","&Eacute;") //$NON-NLS-1$ //$NON-NLS-2$
-					.replaceAll("Õ","&Iacute;") //$NON-NLS-1$ //$NON-NLS-2$
-					.replaceAll("”","&Oacute;") //$NON-NLS-1$ //$NON-NLS-2$
-					.replaceAll("⁄","&Uacute;") //$NON-NLS-1$ //$NON-NLS-2$
-					.replaceAll("—","&Ntilde;"); //$NON-NLS-1$ //$NON-NLS-2$
+		return data.replaceAll("√°","&aacute;") //$NON-NLS-1$ //$NON-NLS-2$
+					.replaceAll("√©","&eacute;") //$NON-NLS-1$ //$NON-NLS-2$
+					.replaceAll("√≠","&iacute;") //$NON-NLS-1$ //$NON-NLS-2$
+					.replaceAll("√≥","&oacute;") //$NON-NLS-1$ //$NON-NLS-2$
+					.replaceAll("√∫","&uacute;") //$NON-NLS-1$ //$NON-NLS-2$
+					.replaceAll("√±","&ntilde;") //$NON-NLS-1$ //$NON-NLS-2$
+					.replaceAll("√Å","&Aacute;") //$NON-NLS-1$ //$NON-NLS-2$
+					.replaceAll("√â","&Eacute;") //$NON-NLS-1$ //$NON-NLS-2$
+					.replaceAll("√ç","&Iacute;") //$NON-NLS-1$ //$NON-NLS-2$
+					.replaceAll("√ì","&Oacute;") //$NON-NLS-1$ //$NON-NLS-2$
+					.replaceAll("√ö","&Uacute;") //$NON-NLS-1$ //$NON-NLS-2$
+					.replaceAll("√ë","&Ntilde;"); //$NON-NLS-1$ //$NON-NLS-2$
 	}
 }

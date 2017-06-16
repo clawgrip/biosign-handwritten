@@ -15,6 +15,7 @@ public class TestProgressUrlHttpManagerImpl {
 	public void testSimpleProgressUrlHttpManager () {
 		try {
 			final ProgressUrlHttpManagerImpl puhmi = new ProgressUrlHttpManagerImpl();
+			
 			puhmi.readUrl(
 				"http://technology.nasa.gov/NASA_Software_Catalog_2014.pdf", //$NON-NLS-1$
 				UrlHttpMethod.GET

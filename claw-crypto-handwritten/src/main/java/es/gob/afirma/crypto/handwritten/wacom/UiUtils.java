@@ -60,7 +60,7 @@ final class UiUtils {
 
 	/** M&eactute;todo para crear los botones de la interfaz de firma.
 	 * @param tablet Tableta de firma.
-	 * @param useColor True si la tableta presenta interfaz gr·fico con color, false en caso contrario.
+	 * @param useColor True si la tableta presenta interfaz gr√°fico con color, false en caso contrario.
 	 * @param screenWidth Ancho de pantalla.
 	 * @param screenHeight Alto de los botones.
 	 * @param pbl Listener con los m&ecute;todos para utilizar cuando se pulsa los botones de la interfaz.

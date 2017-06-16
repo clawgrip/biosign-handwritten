@@ -179,7 +179,7 @@ public final class SignTask {
 
 		sb.append("Alias del PKCS12: " ); //$NON-NLS-1$
 		sb.append(this.completeCriptoSignPkcs12Alias);
-		sb.append("Constraseña del PKCS12: " ); //$NON-NLS-1$
+		sb.append("ConstraseÃ±a del PKCS12: " ); //$NON-NLS-1$
 		sb.append(this.completeCriptoSignPkcs12Password);
 		return sb.toString();
 	}
@@ -312,8 +312,8 @@ public final class SignTask {
 		return false;
 	}
 
-	/** Obtiene la contraseña de firma del PKCS12.
-	 * @return Contraseña de firma del PKCS12. */
+	/** Obtiene la contraseÃ±a de firma del PKCS12.
+	 * @return ContraseÃ±a de firma del PKCS12. */
 	public String getCompleteCriptoSignPkcs12Password() {
 		return this.completeCriptoSignPkcs12Password;
 	}
@@ -371,7 +371,7 @@ public final class SignTask {
 	 * @param completeSignExtraParams par&aacute;metros adicionales de la firma final
 	 *                                con certificado.
 	 * @param completePkcs12 PKCS12 de firma del documento.
-	 * @param completePkcs12Password  Contraseña del PKCS12 de firma.
+	 * @param completePkcs12Password  ContraseÃ±a del PKCS12 de firma.
 	 * @param completePkcs12Alias Alias del PKCS12 de firma.*/
 	public SignTask(final String wrtDir,
 					final Csv csvId,

@@ -204,7 +204,7 @@ public class PadUtils {
 
 	/** Obtiene la tableta conectada con la que se va a proceder a firmar.
 	 * @return Tableta conectada con la que se va a proceder a firmar.
-	 * @throws SignaturePadException Excepción genérica de un dispositivo de captura de firmas. */
+	 * @throws SignaturePadException ExcepciÃ³n genÃ©rica de un dispositivo de captura de firmas. */
 	public static Tablet getTablet() throws SignaturePadException {
 		// Buscamos la primera tableta conectada al sistema y la inicializamos
 		final com.WacomGSS.STU.UsbDevice[] usbDevices = UsbDevice.getUsbDevices();

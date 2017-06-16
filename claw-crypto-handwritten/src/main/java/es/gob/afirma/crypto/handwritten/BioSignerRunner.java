@@ -146,7 +146,7 @@ public final class BioSignerRunner implements SignaturePadListener {
 
 		this.response = finalResponse;
 
-		LOGGER.info("Writable directory: " + getSignTask().getWrtDirectory()); //$NON-NLS-1$ç
+		LOGGER.info("Writable directory: " + getSignTask().getWrtDirectory()); //$NON-NLS-1$
 
 		PadUtils.setLogPath(getSignTask().getWrtDirectory());
 

@@ -65,7 +65,7 @@ public class PdfSignerManager {
 		final Map<String, String> moreInfo = new HashMap<>(3);
 		moreInfo.put("Firmante", signer.toString()); //$NON-NLS-1$
 		moreInfo.put("Tableta de captura", pad.toString()); //$NON-NLS-1$
-		moreInfo.put("Datos biométricos", Base64.encode(bioMetadata)); //$NON-NLS-1$
+		moreInfo.put("Datos biomÃ©tricos", Base64.encode(bioMetadata)); //$NON-NLS-1$
 		PdfPreProcessor.addMoreInfo(moreInfo, pdfStamper);
 
 		// Insertamos los datos biometricos
